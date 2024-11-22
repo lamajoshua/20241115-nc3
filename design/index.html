@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>デザインフレーム｜サイドバー固定ページ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="site-name">
+            <h1>Premium .jp</h1>
+            <p>The Guide To<br>A Better Life</p>
+        </div>
+        <nav>
+            <ul class="page-list">
+                <li><a href="#">about</a></li>
+                <li><a href="#">ctc</a></li>
+                <li><a href="#">sub</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">ctc</a></li>
+                <li><a href="#">sub</a></li>
+            </ul>  
+            <div class="tags">
+                <a class="tag" href="#">#book</a>
+                <a class="tag" href="#">#cat</a>
+                <a class="tag" href="#">#lifestyle</a>
+                <a class="tag" href="#">#food</a>
+                <a class="tag" href="#">#music</a>
+                <a class="tag" href="#">#travel</a>
+            </div>
+        </nav>
+    </aside>
+    
+    <div class="wrapper">
+        <header>
+            <p class="header-copy">THINGS FOR BETTER LIFE<br>お取り寄せの楽しみ。</p>
+            <img src="img/img.png" alt="ヘッダー画像">
+        </header>
+
+        <main>
+            <section data-aos="fade-up"
+            data-aos-anchor-placement="top-center" id="section-1">
+                <h2>記事はこちら</h2>
+                <a class="text" href="#">箱を開けると、そこに幸せが。<br>
+                平野紗季子さんが語るお取り寄せの魅力。</a>
+             </section>
+            <section id="section-2">
+                <h2>記事はこちら</h2>
+                <div data-aos="fade-up"
+                data-aos-anchor-placement="top-center" class="cards">
+                    <a class="card" href="#">「最古（笑）は10年前ぐらい、大学生のときです。『チネカ』という物語性のあるお菓子を作る...</a>
+                    <a class="card" href="#">昔ながらの優しい味わいのおかずを詰めたお弁当が人気の麻生要一郎さん。最近はお弁当...</a>
+                    <a class="card" href="#">「食べ物が届くという現象にファンタジーを感じる人間だと思いました」。確かに。ホント素敵なことだ... </a>
+                    <a class="card" href="#">『チネカ』という物語性のあるお菓子を作るクリエイターの、猫のカリカリを模したクッキーが始まり...</a>
+                </div>
+             </section>
+            <section id="section-3">
+                <h2>記事はこちら</h2>
+                <div data-aos="fade-up"
+                data-aos-anchor-placement="center-botton" class="cards">
+                    <a class="card" href="#">「食べ物が届くという現象にファンタジーを感じる人間だと思いました」。確かに...</a>
+                    <a class="card" href="#">平野さんではないが、すべての運送関係者にも「ありがとう」である。流通のさらなる進化...</a>
+                    <a class="card" href="#">自分が動かなくても手に入る。お店に行く時間も手間もいらない。待ち時間ゼロで、指定の日...</a>
+                    <a class="card" href="#">「お取り寄せの一番のハードルは、実は送料だと思います。カートに入れたあとに送料が追加に...</a>
+                </div>
+             </section>
+        </main>
+
+        <footer>
+            <small class="copyright">&copy; 2024 Fixed Sidebar.</small>
+        </footer>
+        <script>
+            AOS.init();
+          </script>
+    </div>
+</body>
+</html>
